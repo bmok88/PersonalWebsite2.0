@@ -1,14 +1,11 @@
 import React from 'react';
-import { render } from 'react-router-dom';
+import { render } from 'react-dom';
 
 import Website from './components/Website';
 import css from '../public/styles.sass';
 
 const renderWebsite = () => {
-  render(
-    <Website />,
-    document.getElementById('website');
-  );
+  render(<Website />, document.getElementById('website'));
 };
 
 renderWebsite();
