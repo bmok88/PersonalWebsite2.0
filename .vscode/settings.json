@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "Operator Mono",
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": true,   
+    "vscode_custom_css.imports": [
+        "file:///Users/brendanmok/Desktop/styles.css"
+    ]
+}

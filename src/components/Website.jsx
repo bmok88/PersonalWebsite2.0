@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Website = () => 'Brendan dfdfdMok';
+const Website = (res) => 'Brendan dfdfdMok';
 
 export default Website;
