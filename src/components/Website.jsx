@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Website = () => <div>Brendan Mok</div>;
+const Website = () => 'Brendan dfdfdMok';
 
 export default Website;
