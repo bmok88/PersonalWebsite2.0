@@ -6,6 +6,7 @@ module.exports = {
         "import"
     ],
     "rules": {
+        "react/no-unescaped-entities": 0,
         "react/jsx-filename-extension": 0,
         "no-use-before-define": 0,
         "no-unused-vars": 0,
