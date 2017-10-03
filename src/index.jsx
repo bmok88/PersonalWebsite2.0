@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 
 import Website from './components/Website';
-import css from '../public/styles.sass';
+import css from '../public/styles.scss';
 
 const renderWebsite = () => {
   render(<Website />, document.getElementById('website'));
