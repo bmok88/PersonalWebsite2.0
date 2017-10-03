@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Interests = () => (
-  <div />
+  <section>
+
+  </section>
 );
 
 export default Interests;
