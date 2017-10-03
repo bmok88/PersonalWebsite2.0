@@ -1,6 +1,7 @@
 import React from 'react';
 
-import NavBar from './NavBar'
+import NavBar from './NavBar';
+import Interests from './Interests';
 
 const Website = () => (
   <div>
@@ -9,6 +10,9 @@ const Website = () => (
       <h4>Software Engineer</h4>
       <NavBar />
     </header>
+    <section>
+      <Interests />
+    </section>
   </div>
 );
 
