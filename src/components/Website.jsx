@@ -1,8 +1,8 @@
 import React from 'react';
 
-import NavBar from './NavBar.jsx'
+import NavBar from './NavBar'
 
-const Website = res => (
+const Website = () => (
   <div>
     <header>
       <h1>Brendan Mok</h1>
