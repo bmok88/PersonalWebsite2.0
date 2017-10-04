@@ -5,6 +5,7 @@ import AboutMe from './AboutMe';
 import Interests from './Interests';
 import Skills from './Skills';
 import Timeline from './Timeline';
+import Portfolio from './Porfolio';
 
 const Website = () => (
   <div>
@@ -17,6 +18,7 @@ const Website = () => (
     <Interests />
     <Skills />
     <Timeline />
+    <Portfolio />
   </div>
 );
 
