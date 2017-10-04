@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import AboutMe from './AboutMe';
 import Interests from './Interests';
 import Skills from './Skills';
+import Timeline from './Timeline';
 
 const Website = () => (
   <div>
@@ -15,6 +16,7 @@ const Website = () => (
     <AboutMe />
     <Interests />
     <Skills />
+    <Timeline />
   </div>
 );
 
