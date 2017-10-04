@@ -3,6 +3,7 @@ import React from 'react';
 const Timeline = () => (
   <section>
     <h1>My Timeline</h1>
+    <h2><a href="">View Full Resume</a></h2>
     <div id="timeline-container">
       <div id="timeline" />
       <div className="timeline-block">
