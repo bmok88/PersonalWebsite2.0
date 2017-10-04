@@ -3,6 +3,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import AboutMe from './AboutMe';
 import Interests from './Interests';
+import Skills from './Skills';
 
 const Website = () => (
   <div>
@@ -13,6 +14,7 @@ const Website = () => (
     </header>
     <AboutMe />
     <Interests />
+    <Skills />
   </div>
 );
 

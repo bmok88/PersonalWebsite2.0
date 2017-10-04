@@ -4,7 +4,7 @@ const Interests = () => (
   <section id="interests">
     <div>
       <header>
-        <img src="../public/js.png" alt="" />
+        <img src="../public/js.png" alt="JavaScript Icon" />
         <span>JavaScript</span>
       </header>
       <p>
@@ -17,7 +17,7 @@ const Interests = () => (
     </div>
     <div>
       <header>
-        <img src="../public/cloud-computing.png" alt="" />
+        <img src="../public/cloud-computing.png" alt="Web Development Icon" />
         <span>Web Development</span>
       </header>
       <p>
@@ -29,7 +29,7 @@ const Interests = () => (
     </div>
     <div>
       <header>
-        <img src="../public/browser.png" alt="" />
+        <img src="../public/browser.png" alt="UX Design Icon" />
         <span>UX Design</span>
       </header>
       <p>
@@ -42,7 +42,7 @@ const Interests = () => (
       </p>
     </div> <div>
       <header>
-        <img src="../public/optimization.png" alt="" />
+        <img src="../public/optimization.png" alt="Optimization Icon" />
         <span>Optimization</span>
       </header>
       <p>
@@ -55,7 +55,7 @@ const Interests = () => (
     </div>
     <div>
       <header>
-        <img src="../public/virus.png" alt="" />
+        <img src="../public/virus.png" alt="Virus Icon" />
         <span>Algorithms and Data Structures</span>
       </header>
       <p>

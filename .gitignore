@@ -10,3 +10,6 @@ _site/
 *.iml
 .idea/
 *.png
+*.jpg
+*.jpeg
+*.svg
