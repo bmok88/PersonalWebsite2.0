@@ -2,11 +2,29 @@ import React from 'react';
 
 const Contact = () => (
   <section>
-    <h3>Feel free to hit me up on any of the following links. I'm always down for a convo.</h3>
-    <div id="contact-links">
-      <a href="https://www.instagram.com/mok_5/" rel="noreferrer noopener" target="_blank"><img src="../public/color.png" alt="Instagram" /></a>
+    <h1>Contact</h1>
+    <div>
+      <h3>Got a question? Want to collaborate on a project? Shoot me an e-mail!</h3>
+      <form encType="text/plain" method="GET" action="mailto:bmok88@gmail.com">
+        Subject <br />
+        <input type="text" name="subject" /> <br />
+        Message <br />
+        <input type="text" name="body" />
+        <br />
+        <input type="submit" name="submit" />
+      </form>
     </div>
-  </section>
+    <div>
+      <h3>Or...hit me up on any of the following social media accounts. I'm always down for a convo.</h3>
+      <div id="contact-links">
+        <a href="https://www.instagram.com/mok_5/" rel="noreferrer noopener" target="_blank"><img src="../public/color.png" alt="Instagram Link" /></a>
+        <a href="https://www.github.com/bmok88" rel="noreferrer noopener" target="_blank"><img src="../public/github2.png" alt="Github Link" /></a>
+        <a href="https://www.linkedin.com/in/brendan-mok/" rel="noreferrer noopener" target="_blank"><img src="../public/linkedin.png" alt="LinkedIn Link" /></a>
+        <a href="" rel="noreferrer noopener" target="_blank"><img src="" alt="" /></a>
+        <a href="" rel="noreferrer noopener" target="_blank"><img src="" alt="" /></a>
+      </div>
+    </div>
+  </section >
 );
 
 export default Contact;
