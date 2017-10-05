@@ -9,12 +9,39 @@ a
 #intro-container
   display: flex
   position: relative
+  #explore
+    position: absolute
+    text-align: center
+    width: 100%
+    opacity: .8
+    bottom: 31%
+    i
+      color: white
+      font-size: 40px
+      opacity: .8
+      transition: 1s ease;
+    .overlay
+      opacity: 0
+      text-align: center
+      transition: 1s ease;
+      .text
+        position: absolute
+        top: 45%
+        width: 100%
+        left: 50%
+        transform: translate(-50%, -50%);
+    
+  #explore:hover .overlay
+    opacity: 1
+  #explore:hover i
+    opacity: 0
   img
     width: 100%
     height: auto
     margin-top: -200px
     image-rendering: pixelated
   #intro
+    opacity: .8
     position: absolute 
     top: 30%
     width: 100%

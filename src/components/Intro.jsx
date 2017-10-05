@@ -13,8 +13,11 @@ const Intro = () => (
         </h2>
       </div>
     </div>
-    <a href="#background">
-      <img src="../public/down-arrows.png" alt="Explore" />
+    <a href="#background" id="explore">
+      <i className="fa fa-angle-double-down" aria-hidden="true" />
+      <div className="overlay">
+        <div className="text">EXPLORE</div>
+      </div>
     </a>
   </section >
 );
