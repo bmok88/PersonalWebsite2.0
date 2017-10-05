@@ -10,7 +10,7 @@ const Skills = () => (
         <ul>
           <li><img src="../public/react.png" alt="React Icon" />React</li>
           <li><img src="../public/redux.png" alt="Redux Icon" />Redux</li>
-          <li><img src="../public/angular.png" alt="Angular Icon" />Angular 2</li>
+          <li><img src="../public/angular.png" alt="Angular Icon" />Angular 4</li>
           <li><img src="../public/typescript.png" alt="TypeScript Icon" />TypeScript</li>
           <li><img src="../public/jquery.png" alt="jQUery Icon" />jQuery</li>
           <li><img src="../public/html5.png" alt="HTML5 Icon" />HTML5</li>

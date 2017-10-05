@@ -13,6 +13,9 @@ const Intro = () => (
         </h2>
       </div>
     </div>
+    <a href="#background">
+      <img src="../public/down-arrows.png" alt="Explore" />
+    </a>
   </section >
 );
 
