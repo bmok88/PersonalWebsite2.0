@@ -1,11 +1,117 @@
 html 
   background-color: #00091a 
   color: #f5f5f0 
-
+  font-family: 'Cantarell', sans-serif
 a
   text-decoration: none 
   color: #FFF6E9
+
+@keyframes greet
+  0%, 100%
+    transform: scaleX(0)
+  40%, 60% 
+    transform: scaleX(1)
+
+@-webkit-keyframes greet
+  0%, 100%
+    transform: scaleX(0)
+  40%, 60% 
+    transform: scaleX(1)
+
+@keyframes reveal-up
+  0%
+    opacity: 1
+    transform: translateY(100%)
+  100%
+    opacity: 1
+    transform: translateY(0)
   
+@keyframes reveal-down
+  0%
+    opacity: 1
+    transform: translateY(-100%)
+  100%
+    opacity: 1
+    transform: translateY(0)
+
+#intro-container
+  display: flex
+  position: relative
+  img
+    width: 100%
+    height: auto
+    margin-top: -200px
+    image-rendering: pixelated
+  #intro
+    position: absolute 
+    top: 30%
+    width: 100%
+    text-align: center 
+    h1
+      font-size: 100px
+      margin-bottom: -10px
+      position: relative
+      padding-bottom: 10px
+      color: transparent
+      overflow: hidden
+      opacity: 1
+      span
+        position: relative
+        display: inline-block
+        opacity: 1
+      span:before
+        content: ''
+        position: absolute
+        top: calc(100% + 8px)
+        left: -1em
+        height: 2px
+        width: calc(100% + 2em)
+        background-color: #f2f2f2
+        animation: greet 1s .3s both  
+        animation-name: greet
+        animation-duration: 1s
+        animation-timing-function: initial
+        animation-delay: 0.3s
+        animation-iteration-count: initial
+        animation-direction: initial
+        animation-fill-mode: both
+        animation-play-state: initial
+    h1:after
+      content: attr(data-intro)
+      position: absolute
+      top: 0
+      left: 0
+      height: 100%
+      width: 100%
+      color: #f2f2f2
+      animation-name: reveal-up
+      animation-fill-mode: backwards
+      animation-duration: .4s
+      animation-delay: .7s
+    #sub-intro
+      overflow: hidden
+      h2
+        position: relative
+        margin: 0
+        padding: 0
+        animation-name: reveal-down
+        animation-duration: .4s
+        animation-delay: .7s
+        opacity: 0
+        animation-fill-mode: forwards
+        span
+          display: inline-block
+          padding: 1.2em 0
+          font-size: 1.3rem
+          font-weight: 500
+          line-height: 1.5
+          color: #f2f2f2
+          opacity: 1
+          margin: 0
+          animation-delay: .3s
+          animation-duration: .8s
+          animation-fill-mode: forwards
+    
 nav 
   a 
     padding: 50px 
