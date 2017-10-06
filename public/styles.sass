@@ -1,11 +1,13 @@
 html 
-  background-color: #00091a 
+  background-color: #101621 
   color: #f5f5f0 
   font-family: 'Cantarell', sans-serif
+  font-size: 30px
 a
   text-decoration: none 
   color: #FFF6E9
 
+//INTRO
 #intro-container
   display: flex
   position: relative
@@ -16,21 +18,23 @@ a
     opacity: .8
     bottom: 33%
     left: calc(50% - 3%)
+    flex: 1 1 auto
     i
       color: white
-      font-size: 40px
+      font-size: 1rem
       opacity: .8
-      transition: 1s ease;
+      transition: 1s ease
     .overlay
       opacity: 0
       text-align: center
-      transition: 1s ease;
+      transition: 1s ease
       .text
         position: absolute
         top: 45%
         width: 100%
         left: 50%
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+        font-size: .4rem
     
   #explore:hover .overlay
     opacity: 1
@@ -102,7 +106,7 @@ a
         span
           display: inline-block
           padding: 1.2em 0
-          font-size: 1.3rem
+          font-size: .8rem
           font-weight: 500
           line-height: 1.5
           color: #f2f2f2
@@ -199,7 +203,30 @@ a
   100%
     opacity: 1
     transform: translateY(0)
-    
+
+//BACKGROUND
+#background-container
+  padding-bottom: 800px
+  display: flex
+  padding-left: 5%
+  padding-top: 3%
+  font-size: .65rem
+  #background
+    flex: 1 1 40%
+    padding-right: 2%
+  #selfie
+    flex: 1 1 20%
+    margin: 0 auto
+    img
+      display: block;
+      border: 0px solid;
+      border-radius: 50%;
+      padding-top: 6%
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      max-width: 450px
+      margin: 0 auto
+
 nav 
   a 
     padding: 50px 
